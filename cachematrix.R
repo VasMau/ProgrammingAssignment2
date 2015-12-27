@@ -33,7 +33,7 @@ makeCacheMatrix <- function(x = matrix())
              getinv=getinv)
 }
 
-## the following function uses the previous function and caches the inverse if it has been already calculated
+## the following function uses the previous fucntion and caches the inverse if it has been already calculated
 cacheSolve <- function(x, ...) {
         ## @x: output of makeCacheMatrix()
         ## return: inverse of the original matrix input to makeCacheMatrix()
